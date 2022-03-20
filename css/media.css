@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300;400&display=swap");
+
+@media screen and (max-width: 1024px) {
+  footer {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 610px) and (max-width: 768px) {
+  .car-container-text {
+    width: 568px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cards-info {
+    grid-template-columns: 100%;
+  }
+
+  .flex-row {
+    flex-direction: column;
+  }
+  .car-container-text {
+    width: auto;
+    margin: 15px 0 20px;
+  }
+  .car-img {
+    margin: 0;
+  }
+  .car-img img {
+    width: 100%;
+  }
+  footer div {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .newsletter input[type="text"] {
+    width: 100%;
+    padding: 8px 0;
+  }
+  .newsletter input[type="submit"] {
+    width: 100%;
+  }
+  footer h4, li{
+    text-align: center;
+  }
+  .icons-newsletter ul {
+    justify-content: center;
+  }
+}
