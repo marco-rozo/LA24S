@@ -20,10 +20,6 @@ header img {
   height: 40px;
 }
 
-body {
-  /* color: var(--white); */
-}
-
 p {
   margin-top: 10px;
   font-size: 0.9em;
@@ -36,12 +32,6 @@ p {
 
 .bg-dark {
   background-color: var(--grey5A);
-}
-
-.fixed-top {
-  /* position: fixed;
-  width: 100%;
-  z-index: 1; */
 }
 
 .nav {
