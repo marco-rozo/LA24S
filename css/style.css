@@ -176,7 +176,7 @@ p {
 }
 
 .car-img-title:hover {
-  transition: 300ms ease-in-out;
+  transition: 300ms;
   width: 100%;
 }
 
@@ -186,6 +186,7 @@ p {
   position: absolute;
   bottom: 0;
   padding: 5px;
+  transition: 300ms;
   /* opacity: 0.5; */
   font-size: 1rem;
   width: 50%;
