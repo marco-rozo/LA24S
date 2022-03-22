@@ -28,6 +28,7 @@
   }
   .car-img {
     margin: 0;
+    width: auto;
   }
   .car-img img {
     width: 100%;

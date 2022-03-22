@@ -158,11 +158,16 @@ p {
   align-content: center;
 }
 
+.car-img img{
+  width: 100%;
+}
+
 .car-img {
   position: relative;
   overflow: hidden;
   text-overflow: ellipsis;
   margin-right: 20px;
+  width: 50%;
 }
 
 .car-img-title:hover {
@@ -189,7 +194,7 @@ p {
 .car-line {
   margin-top: 10px;
   width: 100%;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .car-container-text a:hover {
@@ -208,7 +213,7 @@ p {
 }
 
 .car-container-text {
-  width: 40%;
+  width: 55%;
 }
 
 footer {
